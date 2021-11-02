@@ -1,7 +1,7 @@
 {
     "icon": "images/icon.png",
-    "name": "colored-regions",
-    "displayName": "Colored Regions",
+    "name": "auto-colored-regions",
+    "displayName": "Auto Colored Regions",
     "description": "This package provides a simple way of colorizing regions.",
     "version": "0.0.3",
     "publisher": "mihelcic",
