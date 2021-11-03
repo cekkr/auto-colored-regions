@@ -77,8 +77,16 @@ export function activate(context: vscode.ExtensionContext) {
             }
         }
 
-        const namedColorsKeys = Object.keys(namedColors);
         const text = activeEditor.document.getText();
+
+        ///
+        /// Create here new parser
+        ///
+
+        ///
+        /// Old parser
+        ///
+        const namedColorsKeys = Object.keys(namedColors);        
         const decoratorMap: DecoratorMap = {};
         let match;
         while ((match = regionRegex.exec(text))) {
