@@ -195,6 +195,10 @@ export function activate(context: vscode.ExtensionContext) {
             return decoratorInstances[color];
         }
 
+        //var exts = vscode.;
+        console.log();
+        
+
         const instance = vscode.window.createTextEditorDecorationType({
             isWholeLine: true,
             backgroundColor: color
